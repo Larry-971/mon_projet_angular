@@ -1,0 +1,23 @@
+<nav>
+  <div class="nav-wrapper">
+    <ul class="right hide-on-med-and-down">
+        <li routerLinkActive="active"><a routerLink="admin" ><i class="material-icons right">supervisor_account</i>Admin</a></li>
+    </ul>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li routerLinkActive="active"><a routerLink="accueil">Accueil</a></li>
+      <li routerLinkActive="active"><a routerLink="presentation">Presentation</a></li>
+      <li routerLinkActive="active"><a routerLink="contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<router-outlet></router-outlet>
+
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+    © 2019 Copyright - Réalisé par Telbois Larry
+    <a class="grey-text text-lighten-4 right" routerLink="/presentation">Nature sauvage</a>
+    </div>
+  </div>
+</footer>

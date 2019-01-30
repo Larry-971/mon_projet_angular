@@ -1,0 +1,15 @@
+<br>
+<div class="container">
+  <div id="banniere"></div>
+  <h3 class="center">Nature Sauvage vous souhaite la "Bienvenue" !</h3>
+  <div id="banniere"></div>
+  <article class="row" *ngFor="let article of articles | async">
+    <h5 class="col s12">{{article.titre}}</h5>
+    <img class="col s4" src="assets/images/{{article.image}}" alt="photo_article">
+    <p class="col s8">{{article.para}}</p>
+    <em class="col s8">{{article.parution}}</em>
+    <span>{{article.auteur}}</span>
+    <hr>
+  </article>
+  <br>
+</div>

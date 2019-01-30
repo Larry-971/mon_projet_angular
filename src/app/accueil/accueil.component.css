@@ -1,0 +1,10 @@
+#banniere{
+    height: 25px;
+    background: url("/assets/images/image5.jpg");
+}
+article>p{
+    word-break: break-all;
+}
+article>img{
+    max-height: 155px;
+}

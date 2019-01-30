@@ -1,0 +1,6 @@
+td>img{
+    height: 60px;
+}
+td>p{
+    word-break: break-all;
+}
